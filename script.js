@@ -8,7 +8,7 @@ const game = new Game({
   boardElem: document.getElementById('board'),
 });
 
-game.start();
+game.restart();
 
 const data = {
   game: game,
